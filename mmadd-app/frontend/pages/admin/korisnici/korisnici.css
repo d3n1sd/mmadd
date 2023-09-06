@@ -1,0 +1,84 @@
+.WorkSpace {
+  width: 100%;
+  display: flex;
+}
+.ListeDiv {
+  margin: 0 1em;
+  border-radius: 10px;
+  width: 82%;
+  height: 90vh;
+}
+
+.listaZahteva {
+  width: 100%;
+}
+.scrollDiv {
+  width: 100%;
+  height: 80vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+.Zahtev {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 88%;
+  border: 1px solid gray;
+  border-radius: 0.2em;
+  padding: 0 2em;
+  font-size: 1.1rem;
+  margin-bottom: 0.5em;
+}
+.Zahtev p {
+  border-bottom: 1px solid #ffffff00;
+}
+
+.Zahtev p:hover {
+  border-bottom: 1px solid #ffffff;
+}
+.Zahtev:hover {
+  background-color: #4782a9;
+  color: white;
+  cursor: pointer;
+}
+
+h1 {
+  width: 95%;
+  border-bottom: 1px solid gray;
+  margin: 1em;
+}
+.listaKorisnika {
+  margin: 1em;
+  border-radius: 10px;
+  width: 100%;
+  height: 80vh;
+}
+.listaKorisnika h1 {
+  width: 95%;
+  border-bottom: 1px solid gray;
+  margin: 1em;
+}
+.DivForUserCards {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 80vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.userCard {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  padding: 1em;
+  margin: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}

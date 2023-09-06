@@ -1,0 +1,284 @@
+#grupeMain {
+  display: flex;
+}
+.ListeDiv {
+  margin: 0 1em;
+  border-radius: 10px;
+  width: 82%;
+  height: 90vh;
+}
+.WorkSpace {
+  width: 100%;
+  display: flex;
+}
+.rightFieldDiv {
+  margin: 0 1em;
+  border-radius: 10px;
+  width: 82%;
+  height: 90vh;
+}
+
+.scrollDiv {
+  width: 100%;
+  height: 80vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  width: 95%;
+  border-bottom: 1px solid gray;
+
+  margin: 1em;
+}
+
+.btnsDiv {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+.rejectBtn {
+  background-color: red;
+}
+.listaGroupa {
+  margin: 1em;
+  border-radius: 10px;
+  width: 100%;
+  height: 80vh;
+}
+.listaGroupa h1 {
+  width: 95%;
+  border-bottom: 1px solid gray;
+  margin: 1em;
+}
+.DivForGroupCards {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 80vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.filterAndAddDiv {
+  display: flex;
+  height: 3em;
+  margin-bottom: 2em;
+  width: 80%;
+  justify-content: space-between;
+  align-items: end;
+}
+.filterAndAddDiv input {
+  height: 2.5em;
+  width: 30%;
+  padding-left: 2em;
+}
+.filterAndAddDiv button {
+  width: 30%;
+}
+
+.groupCardDisplayNone {
+  display: none;
+}
+.groupCard {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  text-align: center;
+  width: 80%;
+  padding: 1em;
+  margin: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.rightFieldGroupCard {
+  width: 80%;
+  margin: 0 3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.ucesniciDivTable {
+  width: 17em;
+  max-height: 15em;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  padding: 1em;
+  border: 1px solid black;
+  overflow-y: scroll;
+}
+.ucesnikDiv {
+  border-bottom: 1px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.5em;
+}
+.ucesnikDiv:hover {
+  background-color: #619fc8;
+  color: white;
+}
+.izbrisiUcesnik {
+  color: red;
+}
+.izbrisiUcesnik:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.GroupButtonsDiv {
+  display: flex;
+  justify-content: center;
+  width: 35%;
+}
+.deleteButton {
+  background-color: rgb(248, 42, 42);
+}
+.DivForAddingNewTherapyMain {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.546);
+  backdrop-filter: blur(3px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NewTherapyInputsDiv {
+  width: 50%;
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 0 2em 0;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.newTherapyXiconDiv {
+  width: 99%;
+  display: flex;
+  justify-content: end;
+  align-items: start;
+  margin: 0.5em;
+}
+.xIcon {
+  width: 1.8em;
+}
+.xIcon:hover {
+  cursor: pointer;
+}
+
+.DivInput {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  color: #ffffff;
+  margin-bottom: 0.1em;
+}
+.categoryOfTherapySelector {
+  color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid gray;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+}
+.selsectorMainField {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+  border-bottom: 2px solid gray;
+  padding: 0.2em;
+}
+.selsectorMainField p {
+  margin: 0;
+}
+
+.selsectorMainField:hover {
+  background-color: #2d6d98;
+  color: white;
+  cursor: pointer;
+}
+.categoryOfTherapySelectorDropDown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.selsectorDropDownField {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 98%;
+  border-bottom: 2px solid gray;
+  padding: 0.2em;
+}
+.selsectorDropDownField:hover {
+  background-color: #2d6d98;
+  color: white;
+  cursor: pointer;
+}
+
+.labelEror {
+  color: red;
+  margin: 1em 0 0.1em 0;
+}
+.labelCorect {
+  color: black;
+  margin: 1em 0 0.1em 0;
+}
+input {
+  width: 100%;
+  height: 2em;
+}
+textarea {
+  width: 100%;
+}
+.deleteTherapyDivMain {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.546);
+  backdrop-filter: blur(3px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.deleteTherapyDiv {
+  width: 50%;
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em 0 2em 0;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.deleteTherapyButtonsDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+.rightFieldTherpyCard {
+  display: flex;
+}
