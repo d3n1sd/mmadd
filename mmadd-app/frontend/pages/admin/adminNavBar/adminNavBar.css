@@ -1,0 +1,98 @@
+.WorkSpaceMeniDiv {
+  width: 13%;
+  height: 91vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin: 1em;
+  padding: 0.5em;
+  background-color: #2d6d98;
+  border-radius: 10px;
+}
+.zahteviBrojac {
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #ffffff;
+  margin-left: 0.5em;
+  color: red;
+}
+.zahteviBrojacNone {
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #ffffff00;
+  margin-left: 0.5em;
+  color: red;
+}
+.adminMeniLinks {
+  color: white !important;
+  margin: 0;
+  font-size: medium;
+
+  width: 100%;
+}
+.AdminMeniTitle {
+  color: white;
+}
+
+.AdminMeniTitle h3 {
+  margin: 0;
+}
+
+.WorkSpaceMeni {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.elemOfMeni {
+  padding: 0.5em 0;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: white;
+  border-bottom: 1px solid white;
+}
+.elemOfMeni p {
+  margin: 0;
+}
+.elemOfMeni:hover {
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.644);
+}
+.elemOfMeni p:hover {
+  color: black;
+}
+
+.zahteviIcon {
+  width: 2.5em;
+  height: 2.5em;
+  margin-left: -0.2em;
+  margin-right: 1.75em;
+}
+.WorkSpaceMeni img {
+  width: 2em;
+  height: 2em;
+  margin-right: 2em;
+}
+
+.elemOfMeniLink {
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adminLink {
+  color: white !important;
+}
+.adminLink:hover {
+  text-decoration: underline !important;
+}

@@ -1,0 +1,116 @@
+#zahtevMain {
+  display: flex;
+}
+.WorkSpace {
+  width: 100%;
+  display: flex;
+}
+.rightFieldDiv {
+  margin: 0 1em;
+  border-radius: 10px;
+  width: 82%;
+  height: 90vh;
+}
+
+.listaKorisnickihZahteva {
+  width: 100%;
+}
+.scrollDiv {
+  width: 100%;
+  height: 80vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column !important;
+}
+.Zahtev {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 88%;
+  border: 1px solid gray;
+  border-radius: 0.2em;
+  padding: 0 2em;
+  font-size: 1.1rem;
+  margin-bottom: 0.5em;
+}
+.Zahtev p {
+  border-bottom: 1px solid #ffffff00;
+}
+
+.Zahtev p:hover {
+  border-bottom: 1px solid #ffffff;
+}
+.Zahtev:hover {
+  background-color: #4782a9;
+  color: white;
+  cursor: pointer;
+}
+
+h1 {
+  width: 95%;
+  border-bottom: 1px solid gray;
+
+  margin: 1em;
+}
+
+.ShowCardBackgroun {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.546);
+  backdrop-filter: blur(3px);
+  color: black;
+}
+.aproveCard {
+  width: 55%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  padding: 0.5em 0 3em 0;
+}
+.iconDiv {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding-right: 1em;
+}
+img:hover {
+  cursor: pointer;
+}
+
+.infoDiv {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainOfInfoDiv {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btnsDiv {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+.rejectBtn {
+  background-color: red;
+}
